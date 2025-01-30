@@ -128,6 +128,20 @@ function Navbar() {
             <i class="fa-solid fa-x" onClick={() => setSearch(false)}></i>
           </p>
         </div>
+        <div className="searchFooterEnd">
+          <p>Repositoryes</p>
+          {data.map((repo, index) => (
+            <div key={index} className="repository-divs">
+              <i class="fa-regular fa-address-book"></i>
+              <p>{`${repo.owner.login}/${repo.name}`}</p>
+              <p>Jump to</p>
+            </div>
+          ))}
+          <div className="repositoryDivsEnd">
+            <p>Search syntax tips</p>
+            <p>Give feedback</p>
+          </div>
+        </div>
       </div>
       <div
         className={`strack ${copilot || create ? "stracker" : ""} `}

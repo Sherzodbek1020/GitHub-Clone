@@ -9,12 +9,16 @@
   border: none;
   outline: none;
   margin-left: calc(10 / 14.4 * 1vw);
+  font-size: calc(16 / 14.4 * 1vw);
+}
+
+.input-search > input {
+  font-size: calc(16 / 14.4 * 1vw);
 }
 
 .input-search > p {
   width: calc(35 / 14.4 * 1vw);
   height: calc(35 / 14.4 * 1vw);
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,4 +177,57 @@
 
 .copilot .stracker {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.repository-divs {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  height: calc(35 / 14.4 * 1vw);
+  padding: calc(10 / 14.4 * 1vw);
+  border-radius: calc(10 / 14.4 * 1vw);
+  margin-top: calc(5 / 14.4 * 1vw);
+  column-gap: calc(5 / 14.4 * 1vw);
+  position: relative;
+}
+
+.repository-divs:hover {
+  background-color: #eaedf0;
+}
+
+.repository-divs > img {
+  width: calc(20 / 14.4 * 1vw);
+  height: calc(20 / 14.4 * 1vw);
+  border-radius: 50%;
+}
+
+.repository-divs > p:nth-child(2) {
+  font-size: calc(14 / 14.4 * 1vw);
+  font-style: normal;
+  font-family: var(--all-fonts);
+}
+
+.repository-divs > p:nth-child(3) {
+  font-size: calc(14 / 14.4 * 1vw);
+  font-style: normal;
+  font-family: var(--all-fonts);
+  position: absolute;
+  right: calc(25 / 14.4 * 1vw);
+}
+
+.repositoryDivsEnd {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  justify-content: space-between;
+  margin-left: calc(10 / 14.4 * 1vw);
+  margin-top: calc(15 / 14.4 * 1vw);
+  border-top: calc(1 / 14.4 * 1vw) solid #59636e;
+  padding-top: calc(25 / 14.4 * 1vw);
+}
+
+.repositoryDivsEnd > p {
+  font-size: calc(14 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+  color: #0969da;
 }

@@ -171,6 +171,12 @@
   width: 90%;
   height: 100%;
   outline: none;
+  font-size: calc(15 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+}
+
+.searchStarNav > div:nth-child(1) > input::placeholder {
+  font-size: calc(15 / 14.4 * 1vw);
 }
 
 .searchStarNav > button {
@@ -181,6 +187,7 @@
   border: calc(1 / 14.4 * 1vw) solid #59636e;
   background-color: #f9fcff;
   transition: 0.1s linear;
+  font-size: calc(16 / 14.4 * 1vw);
 }
 
 .searchStarNav > button:hover {

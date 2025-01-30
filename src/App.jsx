@@ -6,6 +6,7 @@ import Projects from "./Pages/Projects";
 import Packages from "./Pages/Packages";
 import Stars from "./Pages/Stars";
 import Navbar from "./Components/Navbar";
+import Error from "./Pages/Error";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/projects" element={<Projects />} />
       <Route path="/packages" element={<Packages />} />
       <Route path="/stars" element={<Stars />} />
+      <Route path="/*" element={<Error />} />
     </Routes>
   );
 }

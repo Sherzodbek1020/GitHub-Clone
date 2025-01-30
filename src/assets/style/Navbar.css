@@ -435,8 +435,23 @@
   top: calc(5 / 14.4 * 1vw);
   left: calc(110 / 14.4 * 1vw);
   width: calc(960 / 14.4 * 1vw);
+
   padding: calc(15 / 14.4 * 1vw);
   border-radius: calc(20 / 14.4 * 1vw);
+}
+
+.searchFooterEnd {
+  padding: calc(1 / 14.4 * 1vw);
+  margin-top: calc(30 / 14.4 * 1vw);
+}
+
+.searchFooterEnd > p {
+  font-size: calc(14 / 14.4 * 1vw);
+  color: #59636e;
+  font-weight: 500;
+  font-family: var(--all-fonts);
+  margin-left: calc(10 / 14.4 * 1vw);
+  margin-bottom: calc(20 / 14.4 * 1vw);
 }
 
 .search.searched {

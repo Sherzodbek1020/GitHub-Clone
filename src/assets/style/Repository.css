@@ -58,7 +58,7 @@
   border: calc(1 / 14.4 * 1vw) solid #59636e;
   font-size: calc(16 / 14.4 * 1vw);
   color: #596398;
-  outline: none;
+  outline-color: #0969da;
 }
 
 .repo-search > input::placeholder {
