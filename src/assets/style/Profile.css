@@ -1,0 +1,161 @@
+@import url(../../App.css);
+
+.profile > img {
+  width: calc(340 / 14.4 * 1vw);
+  height: calc(340 / 14.4 * 1vw);
+  border-radius: 50%;
+}
+
+.profile {
+  margin-top: calc(40 / 14.4 * 1vw);
+  margin-left: calc(40 / 14.4 * 1vw);
+  position: relative;
+}
+
+.profile > i:nth-child(2) {
+  position: absolute;
+  top: calc(275 / 14.4 * 1vw);
+  left: calc(285 / 14.4 * 1vw);
+  font-size: calc(19 / 14.4 * 1vw);
+  color: #7b838c;
+  width: calc(40 / 14.4 * 1vw);
+  height: calc(40 / 14.4 * 1vw);
+  border: calc(1 / 14.4 * 1vw) solid #7b838c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: calc(10 / 14.4 * 1vw);
+  z-index: 10;
+  background-color: white;
+}
+
+.profile > i:nth-child(2) > p {
+  font-size: calc(14 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+  font-weight: 500;
+  display: none;
+}
+
+.profile > i:nth-child(2):hover {
+  color: #0969da;
+  border-radius: calc(100 / 14.4 * 1vw);
+  width: calc(110 / 14.4 * 1vw);
+}
+
+.profile > i:nth-child(2):hover p {
+  display: block;
+}
+
+.profile > h2 {
+  font-size: calc(28 / 14.4 * 1vw);
+  font-weight: 600;
+  font-style: normal;
+  font-family: var(--all-fonts);
+}
+
+.profile > h3 {
+  font-size: calc(24 / 14.4 * 1vw);
+  font-weight: 300;
+  font-family: var(--all-fonts);
+  color: #616a75;
+}
+
+.profile > p {
+  font-size: calc(20 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+  font-weight: 400;
+  margin-top: calc(18 / 14.4 * 1vw);
+}
+
+.profile > button {
+  width: calc(330 / 14.4 * 1vw);
+  height: calc(40 / 14.4 * 1vw);
+  margin-top: calc(15 / 14.4 * 1vw);
+  background-color: rgba(255, 255, 255, 0.922);
+  border-radius: calc(8 / 14.4 * 1vw);
+  border: calc(0.5 / 14.4 * 1vw) solid #616a75;
+  font-size: calc(18 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+}
+
+.profile > button:hover {
+  background-color: #eff2f5;
+}
+
+.profile > div:nth-child(7) {
+  display: flex;
+  align-items: center;
+  margin-top: calc(20 / 14.4 * 1vw);
+}
+
+.profile > div > i {
+  color: #7b838c;
+  font-size: calc(14 / 14.4 * 1vw);
+}
+
+.profile > div:nth-child(7) > p {
+  font-size: calc(17 / 14.4 * 1vw);
+  margin-left: calc(5 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+  color: black;
+}
+
+.profile > div:nth-child(7) > p > span {
+  font-size: calc(16 / 14.4 * 1vw);
+  color: #7b838c;
+}
+
+.follow-data > p:nth-child(2) > span:hover,
+.follow-data > p:nth-child(2):hover,
+.follow-data > p:nth-child(2) > span:hover .followers {
+  color: #0969da;
+}
+
+.follow-data > p:nth-child(4) > span:hover,
+.follow-data > p:nth-child(4):hover,
+.follow-data > p:nth-child(4) > span:hover .followers {
+  color: #0969da;
+}
+
+.follow-data {
+  margin-bottom: calc(25 / 14.4 * 1vw);
+}
+
+.profile-data {
+  display: flex;
+  align-items: center;
+  column-gap: calc(7 / 14.4 * 1vw);
+  margin-top: calc(10 / 14.4 * 1vw);
+}
+
+.profile-data .glop {
+  font-size: calc(17 / 14.4 * 1vw);
+}
+
+.profile-data > p {
+  font-size: calc(16 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+}
+
+.life {
+  width: calc(333 / 14.4 * 1vw);
+  height: calc(1.5 / 14.4 * 1vw);
+  background-color: #dfe4e9;
+  margin-top: calc(25 / 14.4 * 1vw);
+  margin-bottom: calc(25 / 14.4 * 1vw);
+  margin-left: calc(-5 / 14.4 * 1vw);
+}
+
+.organizations > p {
+  font-size: calc(17 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+}
+
+.organizations > img {
+  width: calc(40 / 14.4 * 1vw);
+  height: calc(40 / 14.4 * 1vw);
+  border: calc(1 / 14.4 * 1vw) solid #7b838c;
+  border-radius: calc(9 / 14.4 * 1vw);
+  margin-top: calc(10 / 14.4 * 1vw);
+}

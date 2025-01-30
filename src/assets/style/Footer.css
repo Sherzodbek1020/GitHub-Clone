@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: calc(50 / 14.4 * 1vw);
+  margin-left: calc(280 / 14.4 * 1vw);
+  margin-bottom: calc(30 / 14.4 * 1vw);
+  column-gap: calc(20 / 14.4 * 1vw);
+}
+
+.footer > i {
+  font-size: calc(25 / 14.4 * 1vw);
+  color: #818b98;
+}
+
+.footer > a {
+  font-size: calc(15 / 14.4 * 1vw);
+  color: #818b98;
+  text-decoration: none;
+}
+
+.footer > a:hover {
+  text-decoration: underline;
+  color: #0969da;
+}

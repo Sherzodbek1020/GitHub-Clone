@@ -1,0 +1,198 @@
+.navlinks-to {
+  display: flex;
+  align-items: center;
+  column-gap: calc(10 / 14.4 * 1vw);
+  margin-top: calc(10 / 14.4 * 1vw);
+  margin-left: calc(15 / 14.4 * 1vw);
+}
+
+.navlinks-to > div:nth-child(1) > a {
+  display: flex;
+  align-items: center;
+  padding: calc(7 / 14.4 * 1vw);
+  border-radius: calc(9 / 14.4 * 1vw);
+  text-decoration: none;
+  column-gap: calc(12 / 14.4 * 1vw);
+  color: #59636e;
+  font-family: var(--all-fonts);
+  font-size: calc(16 / 14.4 * 1vw);
+  font-weight: 600;
+}
+
+.navlinks-to > div:nth-child(2) > p {
+  background-color: #fd8c73;
+  width: calc(125 / 14.4 * 1vw);
+  height: calc(1.7 / 14.4 * 1vw);
+  margin-top: calc(8 / 14.4 * 1vw);
+}
+
+.navlinks-to > div:nth-child(1) > a > i {
+  color: #59636e;
+  font-size: calc(15 / 14.4 * 1vw);
+}
+
+.navlinks-to > div:nth-child(1) > a:hover {
+  background-color: #eaedf0;
+  color: black;
+}
+
+.repo-main {
+  display: flex;
+  column-gap: calc(25 / 14.4 * 1vw);
+}
+
+.reposit {
+  margin-top: calc(20 / 14.4 * 1vw);
+}
+
+.repo-search {
+  display: flex;
+  align-items: center;
+}
+
+.repo-search > input {
+  width: calc(550 / 14.4 * 1vw);
+  height: calc(35 / 14.4 * 1vw);
+  padding: calc(8 / 14.4 * 1vw);
+  border-radius: calc(5 / 14.4 * 1vw);
+  border: calc(1 / 14.4 * 1vw) solid #59636e;
+  font-size: calc(16 / 14.4 * 1vw);
+  color: #596398;
+  outline: none;
+}
+
+.repo-search > input::placeholder {
+  font-size: calc(16 / 14.4 * 1vw);
+  color: #596398;
+}
+
+.repo-search > div {
+  display: flex;
+  align-items: center;
+  margin-left: calc(10 / 14.4 * 1vw);
+  border-radius: calc(5 / 14.4 * 1vw);
+  border: calc(1 / 14.4 * 1vw) solid #59636e;
+  padding: calc(6 / 14.4 * 1vw) calc(15 / 14.4 * 1vw);
+  column-gap: calc(9 / 14.4 * 1vw);
+}
+
+.repo-search > div > p {
+  font-size: calc(17 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+}
+
+.repo-search > div > i {
+  font-size: calc(15 / 14.4 * 1vw);
+}
+
+.new {
+  background-color: #1c8139;
+  border: none;
+  color: white;
+}
+
+.repo-main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.repo-main-nav > p {
+  font-size: calc(17 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+}
+
+.importent {
+  margin-top: calc(20 / 14.4 * 1vw);
+}
+
+.repo-importent {
+  width: calc(980 / 14.4 * 1vw);
+  padding: calc(30 / 14.4 * 1vw) 0px;
+  height: calc(137 / 14.4 * 1vw);
+  border-top: calc(1 / 14.4 * 1vw) solid #59636e;
+  border-bottom: calc(1 / 14.4 * 1vw) solid #59636e;
+}
+
+.repo-main-nav > div {
+  display: flex;
+  align-items: center;
+  padding: calc(7 / 14.4 * 1vw) calc(15 / 14.4 * 1vw);
+  border: calc(1 / 14.4 * 1vw) solid #59636e;
+  border-radius: calc(6 / 14.4 * 1vw);
+  position: absolute;
+  right: calc(45 / 14.4 * 1vw);
+}
+
+.repo-main-nav > div > i:nth-child(1) {
+  font-size: calc(16 / 14.4 * 1vw);
+  color: #59636e;
+}
+
+.repo-main-nav > div > p:nth-child(2) {
+  font-size: calc(14 / 14.4 * 1vw);
+  font-weight: 600;
+  margin-left: calc(10 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+}
+
+.repo-main-nav > div > p:nth-child(3) {
+  width: calc(1 / 14.4 * 1vw);
+  height: calc(24 / 14.4 * 1vw);
+  background-color: #59636e;
+  position: absolute;
+  right: calc(30 / 14.4 * 1vw);
+}
+
+.repo-main-nav > div > i:nth-child(4) {
+  font-size: calc(13 / 14.4 * 1vw);
+  color: #59636e;
+  margin-left: calc(20 / 14.4 * 1vw);
+}
+
+.repo-main-nav > p {
+  font-size: calc(19 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+  font-weight: 630;
+  color: #0969da;
+}
+
+.repo-main-nav > button {
+  width: calc(60 / 14.4 * 1vw);
+  height: calc(25 / 14.4 * 1vw);
+  background-color: white;
+  border-radius: calc(15 / 14.4 * 1vw);
+  border: calc(1 / 14.4 * 1vw) solid #59636e;
+  font-size: calc(14 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+  margin-left: calc(15 / 14.4 * 1vw);
+}
+
+.repo-main-footer {
+  display: flex;
+  align-items: center;
+  margin-top: calc(20 / 14.4 * 1vw);
+  position: relative;
+}
+
+.repo-main-footer > p:nth-child(1) {
+  width: calc(15 / 14.4 * 1vw);
+  height: calc(15 / 14.4 * 1vw);
+  background-color: #1c8139;
+  border-radius: 50%;
+}
+
+.repo-main-footer > p:nth-child(2) {
+  font-size: calc(18 / 14.4 * 1vw);
+  font-family: var(--all-fonts);
+  font-weight: 500;
+  margin-left: calc(5 / 14.4 * 1vw);
+}
+
+.status {
+  width: calc(160 / 14.4 * 1vw);
+  height: calc(2.5 / 14.4 * 1vw);
+  background-color: #a3e6b2;
+  position: absolute;
+  left: calc(809 / 14.4 * 1vw);
+  top: calc(20 / 14.4 * 1vw);
+}
